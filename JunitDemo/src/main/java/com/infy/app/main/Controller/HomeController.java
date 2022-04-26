@@ -1,5 +1,15 @@
 package com.infy.app.main.Controller;
 
-public class HomeController {
+import java.util.ArrayList;
+import java.util.List;
 
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	
+	public List<?> getData()
+	{
+		return new ArrayList<>();
+	}
 }
