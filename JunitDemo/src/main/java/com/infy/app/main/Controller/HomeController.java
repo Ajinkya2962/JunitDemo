@@ -12,4 +12,10 @@ public class HomeController {
 	{
 		return new ArrayList<>();
 	}
+	public String postData()	
+	{
+		return "Pooja";
+	}
+	
+	
 }
